@@ -1,0 +1,5 @@
+.xzoom-small{position:relative;overflow:hidden;}
+.xzoom-small img{display:block;}
+.xzoom-small .zoom{cursor:move;display:none;position: absolute;width:30px;height:30px;border:1px solid #fc0;background-color:#ff0;background-color: rgba(255,255,0,.3);filter:alpha(Opacity=30);}
+.xzoom-big{display:none;position: absolute;width:400px;height:300px;overflow:hidden;}
+.xzoom-big img{position: absolute;left:0;right:0;width: 800px;height: 800px;}

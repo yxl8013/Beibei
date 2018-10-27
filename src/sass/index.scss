@@ -1,0 +1,195 @@
+#banner{
+    width: 100%;
+    ul{
+        width:100%;
+        overflow:hidden;
+        position:relative;
+        height: 320px;
+        li{
+            position:absolute;
+            img{
+                margin:0 auto;
+            }
+        }
+    }
+}
+#main{
+    background:#F1F1F1;
+    .container{
+        position:relative;
+        .content-left{
+            padding:23px 0 60px 0;
+            .titlebox{
+                span{
+                    font-size:22px;
+                    margin-right:12px;
+                    color:#666666;
+                    &.g-fw{
+                        font-weight:900;
+                        font-size:24px;
+                    }
+                }
+            }
+            .goodsbox{
+                .goodslist{
+                    overflow:hidden;
+                    li{
+                        float:left;
+                        margin:8px;
+                        margin-top:16px;
+                        border:1px solid #ccc;
+                        background:#fff;
+                        &:nth-child(3n-2){
+                            margin-left:0;
+                        }
+
+                        a{
+                            display:block;
+                            text-decoration:none;
+                            color:#000;
+                            img{
+                                width: 255px;
+                                height: 255px;
+                            }
+                            p{
+                                padding:0 12px;
+                                width: 243px;
+                                height:36px;
+                                line-height:36px;
+                                font-size:12px;
+                                color:#666;
+                                overflow:hidden;
+                                text-overflow:ellipsis;
+                                white-space:nowrap;
+                            }
+                            div{
+                                padding:0 12px;
+                                width: 243px;
+                                height:50px;
+                                line-height:50px;
+                                position:relative;
+                                span:nth-child(1){
+                                    font-size:22px;
+                                    color:#FF4965;
+                                    margin-right:12px;
+                                    font-weight:800;
+                                }
+                                span:nth-child(2){
+                                    font-size:14px;
+                                    color:#999;
+                                    text-decoration:line-through;
+                                }
+                                span:nth-child(3){
+                                    position:absolute;
+                                    bottom:-6px;
+                                    right:0;
+                                    color:#999;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+           
+
+        }
+
+        .content-right{
+            position:absolute;
+            padding-top:23px;
+            left: 830px;
+            top: 3px;
+            z-index: 10;
+            .hotsale{
+                color:#666;
+                font-size: 16px;
+                display:inline-block;
+                line-height:18px;
+                margin-right:5px;
+                font-weight: 600;
+
+                i{
+                    color:#FF6A7C;
+                    font-size: 18px;
+                    display:inline-block;
+                    line-height:18px;
+                    margin-right:5px;
+                    font-weight:900;
+                }
+            }
+            .hot-goods{
+                background:#FFF;
+                width: 248px;
+                border: 1px solid #e7e7e7;
+                overflow: hidden;
+                margin-top: 5px;
+                .tab{
+                    overflow:hidden;
+                    height: 31px;
+                    font-size: 13px;
+                    li{
+                        float:left;
+                        width: 61px;
+                        height: 30px;
+                        line-height: 30px;
+                        border-right: 1px solid #dbdbdb;
+                        text-align: center;
+                        border-bottom: 1px solid #dbdbdb;
+                        border-top: 1px solid #dbdbdb;
+                        cursor: pointer;
+                        background: #f9f9f9;
+                        &:hover{
+                            color:#000;
+                        }
+                    }
+                }
+            }
+            .hot-show{
+                // min-height:60px;
+                li{
+                    a{
+                        display:block;
+                        overflow:hidden;
+                        width: 248px;
+                        padding:10px 0 0 10px;
+                        border-bottom:1px dashed #ddd;
+
+                        img{
+                            width: 70px;
+                            height: 70px;
+                            float:left;
+                            margin-right:12px;
+
+                        }
+                        div{
+                            float:left;
+                            p{
+                                font-size:14px;
+                                line-height:18px;
+                                color:#000;
+                                width: 143px;
+                                height: 40px;
+                                overflow: hidden;
+                                span{
+                                    color: #ff5482;
+                                    font-size:14px;
+                                    font-weight:900;
+                                    margin-right:12px;
+                                    line-height:18px;
+                                }
+                                i{
+                                    color: #a5a5a5;
+                                    font-size:14px;
+                                    text-decoration: line-through;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

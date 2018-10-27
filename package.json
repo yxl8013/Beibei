@@ -1,0 +1,27 @@
+{
+  "name": "beibei",
+  "version": "1.0.0",
+  "description": "项目作业",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yxl8013/Beibei.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yxl8013/Beibei/issues"
+  },
+  "homepage": "https://github.com/yxl8013/Beibei#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  }
+}

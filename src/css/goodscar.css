@@ -1,0 +1,318 @@
+#Beibei .container {
+  width: 1200px;
+}
+
+#Beibei #header {
+  vertical-align: middle;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+}
+
+#main {
+  background: #F2F4F6;
+}
+
+#main .container .car-box {
+  background: #fff;
+  margin-top: 20px;
+}
+
+#main .container .car-box .car-title {
+  padding: 0 20px;
+  height: 73px;
+  background: #FAFAFA;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#main .container .car-box .car-title h2 {
+  color: #A7A7A7;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 73px;
+}
+
+#main .container .car-box .car-title .status {
+  width: 340px;
+  height: 73px;
+  background: url(../images/car_top.png) 0 -80px;
+  position: absolute;
+  top: 0;
+  right: 30px;
+}
+
+#main .container .car-box .car-content {
+  padding: 20px 20px 20px;
+  position: relative;
+  background: #fff;
+}
+
+#main .container .car-box .car-content table {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+}
+
+#main .container .car-box .car-content table th {
+  border-width: 0 0 0 1px;
+  font-size: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: 6px 12px;
+  font-weight: bold;
+}
+
+#main .container .car-box .car-content table thead {
+  background: #f3f3f3;
+  color: #555;
+  text-align: left;
+  vertical-align: middle;
+  height: 30px;
+  line-height: 30px;
+}
+
+#main .container .car-box .car-content table thead tr th {
+  text-align: center;
+}
+
+#main .container .car-box .car-content table thead tr .th-checkall {
+  width: 70px;
+}
+
+#main .container .car-box .car-content table thead tr .th-sp {
+  width: 400px;
+}
+
+#main .container .car-box .car-content table thead tr .th-dj {
+  width: 100px;
+}
+
+#main .container .car-box .car-content table thead tr .th-xx {
+  width: 180px;
+}
+
+#main .container .car-box .car-content table thead tr .th-xl {
+  width: 130px;
+  text-align: right;
+}
+
+#main .container .car-box .car-content table tbody .kong {
+  height: 15px;
+}
+
+#main .container .car-box .car-content table tbody .dianjia {
+  background: #f4f4f4;
+  border: 1px solid #d8d8d8;
+  height: 40px;
+  line-height: 40px;
+}
+
+#main .container .car-box .car-content table tbody .dianjia td:nth-child(1) {
+  padding-left: 12px;
+}
+
+#main .container .car-box .car-content table tbody .dianjia a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 12px;
+}
+
+#main .container .car-box .car-content table tbody .car-item {
+  border: 1px solid #d8d8d8;
+  border-top: 0;
+  padding-top: 12px;
+  height: 108px;
+}
+
+#main .container .car-box .car-content table tbody .car-item td {
+  padding: 6px 12px;
+  text-align: center;
+}
+
+#main .container .car-box .car-content table tbody .car-item td:nth-child(1) {
+  text-align: right;
+}
+
+#main .container .car-box .car-content table tbody .car-item td:nth-child(1) .check-item {
+  vertical-align: middle;
+}
+
+#main .container .car-box .car-content table tbody .car-item td:nth-child(2) a {
+  overflow: hidden;
+  color: #3e3e3e;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#main .container .car-box .car-content table tbody .car-item td:nth-child(2) a img {
+  float: left;
+  height: 80px;
+  width: 80px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  padding: 1px;
+}
+
+#main .container .car-box .car-content table tbody .car-item td:nth-child(2) a:nth-child(2) {
+  display: block;
+  line-height: 20px;
+  margin: 0 20px 0 90px;
+  overflow: hidden;
+  font-size: 12px;
+  color: #3E3E3E;
+  text-align: left;
+}
+
+#main .container .car-box .car-content table tbody .car-item td:nth-child(3) {
+  color: #888;
+}
+
+#main .container .car-box .car-content table tbody .car-item td:nth-child(4) p {
+  margin: 0 0 8px;
+}
+
+#main .container .car-box .car-content table tbody .car-item td:nth-child(4) p:nth-child(2) {
+  color: #a9a9a9;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+#main .container .car-box .car-content table tbody .car-item .qty {
+  width: 10px;
+  position: relative;
+  margin-left: 35px;
+}
+
+#main .container .car-box .car-content table tbody .car-item .qty input {
+  border: 1px solid #ccc;
+  height: 27px;
+  width: 28px;
+  text-align: center;
+  border-left: none;
+}
+
+#main .container .car-box .car-content table tbody .car-item .qty a {
+  display: inline-block;
+  width: 22px;
+  height: 28px;
+  background: url(../images/car_top.png) -47px 0;
+  position: absolute;
+  top: 0;
+  left: 28px;
+}
+
+#main .container .car-box .car-content table tbody .car-item .qty .less {
+  background-position: 0 0;
+  left: -19px;
+}
+
+#main .container .car-box .car-content table tbody td:nth-child(6) {
+  color: #FF4975;
+  font-size: 14px;
+}
+
+#main .container .car-box .car-content table .xj {
+  text-align: right;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+#main .container .car-box .car-content table .xj span {
+  margin: 0 60px;
+  color: #A7A7A7;
+}
+
+#main .container .car-box .car-content table .xj .xj-price {
+  color: #FF4975;
+  font-size: 14px;
+}
+
+#main .container .car-box .car-content .enter {
+  width: 850px;
+  height: 60px;
+  margin-top: 20px;
+  background: #F3F3F3;
+  line-height: 60px;
+  padding-left: 23px;
+}
+
+#main .container .car-box .car-content .enter input {
+  margin-top: -8px;
+}
+
+#main .container .car-box .car-content .enter label {
+  font-size: 12PX;
+  font-weight: normal;
+  margin-left: 3px;
+  color: #000;
+}
+
+#main .container .car-box .car-content .enter p {
+  display: inline-block;
+  margin-left: 160px;
+}
+
+#main .container .car-box .car-content .enter p span {
+  color: #FC6E75;
+}
+
+#main .container .car-box .car-content .enter .delAll {
+  font-size: 12px;
+  color: #777777;
+  margin-left: 22px;
+  cursor: pointer;
+}
+
+#main .container .car-box .car-content .enter .delAll:hover {
+  color: red;
+  font-weight: 900;
+}
+
+#main .container .car-box .car-content .enter .total {
+  color: #FF4975;
+  font-size: 26px;
+  vertical-align: middle;
+  font-weight: 100;
+}
+
+#main .container .car-box .car-content .enter button {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  background: #FF4975;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  border-radius: 6px;
+  margin-left: 43px;
+}
+
+.kongcar {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  font-size: 16px;
+  color: #FE899B;
+  padding-top: 50px;
+}
+
+.kongcar p {
+  line-height: 20px;
+}
+
+.kongcar p a {
+  text-decoration: none;
+  line-height: 26px;
+  font-size: 12px;
+  color: #58bc58;
+}

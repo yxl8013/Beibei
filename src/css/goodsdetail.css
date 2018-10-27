@@ -1,0 +1,474 @@
+#main {
+  background: #F2F4F6;
+}
+
+#main .detail-box {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 20px;
+  padding-right: 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+#main .detail-box .pic-box {
+  float: left;
+}
+
+#main .detail-box .pic-box img {
+  width: 460px;
+  height: 460px;
+}
+
+#main .detail-box .pic-box ul {
+  margin-top: 20px;
+}
+
+#main .detail-box .pic-box ul li {
+  margin: 10px;
+  margin-left: 60px;
+  width: 76px;
+  border: 2px solid #FF4965;
+  padding: 6px;
+}
+
+#main .detail-box .pic-box ul li img {
+  width: 60px;
+  height: 60px;
+}
+
+#main .detail-box .pic-box a {
+  margin-left: 60px;
+  font-size: 12px;
+  color: #666;
+}
+
+#main .detail-box .pic-box a i {
+  margin-right: 6px;
+}
+
+#main .detail-box .pic-box a:hover {
+  color: #FF4965;
+}
+
+#main .detail-box .content-box {
+  margin-left: 23px;
+  float: left;
+  width: 540px;
+  padding-right: 10px;
+}
+
+#main .detail-box .content-box .b-lr {
+  border: 3px solid #EEEEEE;
+  border-top: none;
+  padding-bottom: 60px;
+  padding-top: 20px;
+}
+
+#main .detail-box .content-box .title {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#main .detail-box .content-box .title span {
+  color: #FF5482;
+  margin-right: 10px;
+}
+
+#main .detail-box .content-box p {
+  color: #775544;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+#main .detail-box .content-box .red-save {
+  height: 80px;
+  background: #FE4A7A;
+  border-radius: 5px;
+  margin: 10px 0;
+  margin-bottom: 0;
+  padding: 16px 0 0 0px;
+}
+
+#main .detail-box .content-box .red-save span {
+  display: inline-block;
+  height: 44px;
+  padding: 0 25px;
+  text-align: center;
+}
+
+#main .detail-box .content-box .red-save span:nth-child(1) {
+  font-size: 44px;
+  color: #fff;
+}
+
+#main .detail-box .content-box .red-save span:nth-child(2) {
+  font-size: 14px;
+  color: #fff;
+  vertical-align: top;
+  text-decoration: line-through;
+}
+
+#main .detail-box .content-box .red-save span:nth-child(3) {
+  font-size: 14px;
+  color: #fff;
+}
+
+#main .detail-box .content-box .red-save span:nth-child(4) {
+  font-size: 14px;
+  color: #fff;
+}
+
+#main .detail-box .content-box .m-l {
+  margin-left: 86px;
+  color: #888;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+#main .detail-box .content-box .fan {
+  position: relative;
+  cursor: pointer;
+}
+
+#main .detail-box .content-box .fan:hover .tips {
+  display: block;
+}
+
+#main .detail-box .content-box .fan span {
+  display: inline-block;
+  width: 24px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  color: #fff;
+  background: #FF8135;
+  margin: 0 0px 0 10px;
+}
+
+#main .detail-box .content-box .fan .tips {
+  display: none;
+  position: absolute;
+  background: #fff;
+  top: 80%;
+  right: 0;
+  width: 395px;
+  padding: 15px;
+  border: 2px solid #EEEEEE;
+  border-radius: 8px;
+}
+
+#main .detail-box .content-box .fan .tips p {
+  text-indent: 12px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #888;
+}
+
+#main .detail-box .content-box .fan i {
+  font-size: 12px;
+  font-weight: 900;
+}
+
+#main .detail-box .content-box .yunfei {
+  margin-right: 15px;
+}
+
+#main .detail-box .content-box .color i {
+  margin-right: 10px;
+}
+
+#main .detail-box .content-box .color span {
+  margin: 3px;
+  font-size: 14px;
+  color: #000;
+  line-height: 0;
+  display: inline-block;
+  padding: 2px 8px 2px 2px;
+  border: 1px solid #B8B7BD;
+  cursor: pointer;
+}
+
+#main .detail-box .content-box .color span.gou {
+  background: url(../images/gou.png) no-repeat right bottom;
+  border: 1px solid #FA0D66;
+}
+
+#main .detail-box .content-box .color span:hover {
+  border: 1px solid #FE4A7A;
+}
+
+#main .detail-box .content-box .color span img {
+  width: 25px;
+  height: 25px;
+  margin-right: 4px;
+  border: 1px solid #ccc;
+}
+
+#main .detail-box .content-box .size i {
+  margin-right: 10px;
+}
+
+#main .detail-box .content-box .size span {
+  display: inline-block;
+  padding: 8px;
+  line-height: 14px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  margin: 0 3px;
+  color: #000;
+  cursor: pointer;
+}
+
+#main .detail-box .content-box .size span.gou {
+  background: url(../images/gou.png) no-repeat right bottom;
+  border: 1px solid #FA0D66;
+}
+
+#main .detail-box .content-box .size span:hover {
+  border: 1px solid #FE4A7A;
+}
+
+#main .detail-box .content-box .qty {
+  margin-left: 58px;
+  margin-top: 16px;
+  position: relative;
+}
+
+#main .detail-box .content-box .qty i {
+  position: absolute;
+  display: inline-block;
+  height: 28px;
+  width: 22px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+  top: 1px;
+  left: 73px;
+  text-align: center;
+  line-height: 28px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#main .detail-box .content-box .qty i:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e0e0e0), to(#f0f0f0));
+}
+
+#main .detail-box .content-box .qty .less {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-right: 1px solid #ccc;
+}
+
+#main .detail-box .content-box .qty .plus {
+  top: 1px;
+  left: 121px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-left: 1px solid #ccc;
+}
+
+#main .detail-box .content-box .qty span {
+  display: inline-block;
+  width: 72px;
+  height: 30px;
+  padding: 0 22px;
+  border: 1px solid #CCCCCC;
+  text-align: center;
+  line-height: 30px;
+  color: #000;
+  font-size: 14px;
+  border-radius: 3px;
+  margin-left: 16px;
+  margin-right: 6px;
+}
+
+#main .detail-box .content-box .buy {
+  margin: 30px 0 0 128px;
+}
+
+#main .detail-box .content-box .buy a {
+  display: inline-block;
+  width: 140px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 6px;
+  color: #fff;
+  background: #FF4965;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 12px;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+#main .detail-box .content-box .buy a:nth-child(2) {
+  line-height: 40px;
+  background: #fff;
+  font-size: 20px;
+  color: red;
+  border: 1px solid red;
+}
+
+#main .detail-box .content-box .buy a span {
+  font-size: 20px;
+}
+
+#main .other-box {
+  margin-top: 50px;
+}
+
+#main .other-box .jieshao {
+  border: 1px solid #DDDDDD;
+  border-top: 0;
+  width: 870px;
+  background: #fff;
+}
+
+#main .other-box .jieshao .top-nav {
+  border-top: 1px solid #DDDDDD;
+  box-shadow: 0 1px 1px #d1d1d1;
+  background: #F2F4F6;
+  overflow: hidden;
+}
+
+#main .other-box .jieshao .top-nav a {
+  display: block;
+  float: left;
+  width: 106px;
+  height: 46px;
+  color: #777;
+  font-size: 14px;
+  text-align: center;
+  line-height: 46px;
+  border-right: 1px solid #ccc;
+}
+
+#main .other-box .jieshao .top-nav a:nth-child(1) {
+  background: #fff;
+}
+
+#main .other-box .jieshao .top-nav a:hover {
+  background: #fff;
+  color: #FA0D66;
+  flex-wrap: 900;
+}
+
+#main .other-box .jieshao .top-nav a i {
+  margin: 0 6px;
+}
+
+#main .other-box .jieshao .adbox {
+  padding: 40px 0 0 46px;
+}
+
+#main .other-box .jieshao .adbox .ad01 h3 {
+  font-size: 18px;
+  color: #FF007F;
+  font-weight: 900;
+  line-height: 50px;
+}
+
+#main .other-box .jieshao .adbox .ad01 .table {
+  width: 745px;
+  height: 198px;
+  background: url(../images/table.png);
+  margin: 30px 0;
+}
+
+#main .other-box .jieshao .adbox .ad01 .bg01 {
+  width: 740px;
+  height: 390px;
+  background: url(../images/bg01.png);
+  margin: 30px 0;
+}
+
+#main .other-box .jieshao .adbox .ad01 .bg02 {
+  width: 740px;
+  height: 270px;
+  background: url(../images/bg02.png);
+  margin: 30px 0;
+}
+
+#main .other-box .jieshao .adbox .ad04 {
+  margin-top: 50px;
+}
+
+#main .other-box .jieshao .adbox .ad04 h3 {
+  font-size: 18px;
+  color: #FF007F;
+  font-weight: 900;
+  line-height: 50px;
+}
+
+#main .other-box .tuijian {
+  width: 160px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+#main .other-box .tuijian h3 {
+  font-size: 16px;
+  background: #F8F8F8;
+  line-height: 44px;
+  font-weight: 800;
+  height: 44px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+#main .other-box .tuijian ul li {
+  text-align: center;
+  margin: 20px 0;
+  padding: 0 10px;
+}
+
+#main .other-box .tuijian ul li:hover img {
+  transform: scale(2);
+}
+
+#main .other-box .tuijian ul li a {
+  text-decoration: none;
+}
+
+#main .other-box .tuijian ul li div {
+  text-align: left;
+  line-height: 30px;
+}
+
+#main .other-box .tuijian ul li div span {
+  font-size: 18px;
+  color: #FF5482;
+  margin-right: 10px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+}
+
+#main .other-box .tuijian ul li div i {
+  font-size: 12px;
+  margin-left: 10px;
+  color: #999999;
+}
+
+#main .other-box .tuijian ul li p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 28px;
+  color: #666;
+  height: 28px;
+}
+
+#main .other-box .tuijian ul li img {
+  width: 114px;
+  height: 114px;
+}
+
+.fly-img {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  opacity: 0;
+}

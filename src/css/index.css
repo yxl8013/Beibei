@@ -1,0 +1,207 @@
+#banner {
+  width: 100%;
+}
+
+#banner ul {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 320px;
+}
+
+#banner ul li {
+  position: absolute;
+}
+
+#banner ul li img {
+  margin: 0 auto;
+}
+
+#main {
+  background: #F1F1F1;
+}
+
+#main .container {
+  position: relative;
+}
+
+#main .container .content-left {
+  padding: 23px 0 60px 0;
+}
+
+#main .container .content-left .titlebox span {
+  font-size: 22px;
+  margin-right: 12px;
+  color: #666666;
+}
+
+#main .container .content-left .titlebox span.g-fw {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+#main .container .content-left .goodsbox .goodslist {
+  overflow: hidden;
+}
+
+#main .container .content-left .goodsbox .goodslist li {
+  float: left;
+  margin: 8px;
+  margin-top: 16px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+#main .container .content-left .goodsbox .goodslist li:nth-child(3n-2) {
+  margin-left: 0;
+}
+
+#main .container .content-left .goodsbox .goodslist li a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+#main .container .content-left .goodsbox .goodslist li a img {
+  width: 255px;
+  height: 255px;
+}
+
+#main .container .content-left .goodsbox .goodslist li a p {
+  padding: 0 12px;
+  width: 243px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 12px;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#main .container .content-left .goodsbox .goodslist li a div {
+  padding: 0 12px;
+  width: 243px;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+}
+
+#main .container .content-left .goodsbox .goodslist li a div span:nth-child(1) {
+  font-size: 22px;
+  color: #FF4965;
+  margin-right: 12px;
+  font-weight: 800;
+}
+
+#main .container .content-left .goodsbox .goodslist li a div span:nth-child(2) {
+  font-size: 14px;
+  color: #999;
+  text-decoration: line-through;
+}
+
+#main .container .content-left .goodsbox .goodslist li a div span:nth-child(3) {
+  position: absolute;
+  bottom: -6px;
+  right: 0;
+  color: #999;
+}
+
+#main .container .content-right {
+  position: absolute;
+  padding-top: 23px;
+  left: 830px;
+  top: 3px;
+  z-index: 10;
+}
+
+#main .container .content-right .hotsale {
+  color: #666;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 18px;
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+#main .container .content-right .hotsale i {
+  color: #FF6A7C;
+  font-size: 18px;
+  display: inline-block;
+  line-height: 18px;
+  margin-right: 5px;
+  font-weight: 900;
+}
+
+#main .container .content-right .hot-goods {
+  background: #FFF;
+  width: 248px;
+  border: 1px solid #e7e7e7;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+#main .container .content-right .hot-goods .tab {
+  overflow: hidden;
+  height: 31px;
+  font-size: 13px;
+}
+
+#main .container .content-right .hot-goods .tab li {
+  float: left;
+  width: 61px;
+  height: 30px;
+  line-height: 30px;
+  border-right: 1px solid #dbdbdb;
+  text-align: center;
+  border-bottom: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+  cursor: pointer;
+  background: #f9f9f9;
+}
+
+#main .container .content-right .hot-goods .tab li:hover {
+  color: #000;
+}
+
+#main .container .content-right .hot-show li a {
+  display: block;
+  overflow: hidden;
+  width: 248px;
+  padding: 10px 0 0 10px;
+  border-bottom: 1px dashed #ddd;
+}
+
+#main .container .content-right .hot-show li a img {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 12px;
+}
+
+#main .container .content-right .hot-show li a div {
+  float: left;
+}
+
+#main .container .content-right .hot-show li a div p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+  width: 143px;
+  height: 40px;
+  overflow: hidden;
+}
+
+#main .container .content-right .hot-show li a div p span {
+  color: #ff5482;
+  font-size: 14px;
+  font-weight: 900;
+  margin-right: 12px;
+  line-height: 18px;
+}
+
+#main .container .content-right .hot-show li a div p i {
+  color: #a5a5a5;
+  font-size: 14px;
+  text-decoration: line-through;
+}

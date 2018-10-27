@@ -1,0 +1,165 @@
+#main {
+  background: #F9F9F9;
+}
+
+#main .container {
+  padding: 0;
+}
+
+#main .sortbox {
+  height: 46px;
+  margin-top: 20px;
+  border: 1px solid #EEEEEE;
+  background: #fff;
+  padding: 12px 15px 0 15px;
+  position: relative;
+}
+
+#main .sortbox a {
+  display: inline-block;
+  width: 56px;
+  height: 22px;
+  font-size: 12px;
+  border: 1px solid #666;
+  text-align: center;
+  line-height: 22px;
+  color: #999;
+  margin-right: 12px;
+  background: #fff;
+  text-decoration: none;
+}
+
+#main .sortbox a:hover {
+  border: 1px solid #FF4965;
+  color: #FF4965;
+}
+
+#main .sortbox a.red {
+  color: #fff;
+  background: #FF4965;
+  border: 1px solid #FF4965;
+}
+
+#main .sortbox p {
+  display: inline-block;
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  font-size: 12px;
+}
+
+#main .sortbox p span {
+  margin: 0 24px;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+#main .sortbox p i {
+  color: red;
+  margin: 0 12px;
+}
+
+#main .goodsbox {
+  padding-bottom: 130px;
+  padding-top: 20px;
+  position: relative;
+}
+
+#main .goodsbox .pages {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 30px;
+}
+
+#main .goodsbox .pages span {
+  display: inline-block;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  color: #777;
+  border: 1px solid #E9E9E9;
+  background: #fff;
+  margin: 4px;
+}
+
+#main .goodsbox .pages span:hover {
+  border: 1px solid #FF4965;
+  color: #FF4965;
+}
+
+#main .goodsbox .pages span.active {
+  border: 1px solid #FF4965;
+  background: #FF4965;
+  color: #fff;
+  font-weight: 900;
+}
+
+#main .goodsbox .goodslist {
+  overflow: hidden;
+}
+
+#main .goodsbox .goodslist li {
+  float: left;
+  margin: 10px;
+  border: 1px solid #EEEEEE;
+  position: relative;
+  background: #fff;
+}
+
+#main .goodsbox .goodslist li i {
+  display: block;
+  width: 58px;
+  height: 24px;
+  background: url(../images/buy.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#main .goodsbox .goodslist li a {
+  text-decoration: none;
+}
+
+#main .goodsbox .goodslist li img {
+  display: block;
+  width: 253px;
+  height: 253px;
+}
+
+#main .goodsbox .goodslist li span {
+  display: block;
+  font-size: 12px;
+  color: #666666;
+  height: 35px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-left: 12px;
+  line-height: 42px;
+  width: 226px;
+}
+
+#main .goodsbox .goodslist li div {
+  padding-left: 12px;
+  height: 46px;
+  font-size: 24px;
+  color: #FF4965;
+  line-height: 46px;
+  font-weight: 900;
+}
+
+#main .goodsbox .goodslist li:nth-child(4n-3) {
+  margin-left: 0;
+}
+
+#main .goodsbox .goodslist li:nth-child(4n) {
+  margin-right: 0;
+}
+
+#main .goodsbox .goodslist li:hover {
+  border: 1px solid #FF4965;
+}

@@ -1,2 +1,2 @@
 # Beibei
-项目作业
+原生js+jquery+php+mysql 实现  
